@@ -1,0 +1,110 @@
+#logo {
+    width: 50%;
+    height: auto;
+}
+
+h2 {
+    text-decoration: underline;
+    text-decoration-color: red;
+
+}
+
+header {
+    text-align: center;
+    font-size: medium;
+    color: red;
+    background-color: black;
+    padding: 1cm;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Libre Franklin", sans-serif;
+    background-color: whitesmoke;
+
+
+}
+
+footer {
+    text-align: center;
+    font-size: medium;
+    color: red;
+    background-color: black;
+    padding: 1cm;
+}
+
+#kuva1 {
+    width: 100%;
+    height: auto;
+}
+
+#kuva2 {
+    width: 100%;
+    height: auto;
+}
+
+.box-2 {
+    text-align: center;
+}
+
+.box-4 {
+    text-align: center;
+}
+
+.keskiblokki {
+    background-color: black;
+    text-align: center;
+    color: whitesmoke;
+    padding: 1cm;
+}
+
+@media (min-width:845px) {
+    .container1 {
+        display: flex;
+    }
+
+    .box-1 {
+        order: 2;
+        flex-basis: 100%;
+
+    }
+
+    .box-2 {
+        order: 1;
+        flex-basis: 100%;
+        text-align: center;
+        margin: auto;
+        line-height: 1.2;
+
+    }
+
+    .container2 {
+        display: flex;
+    }
+
+    .box-3 {
+        flex-basis: 100%;
+    }
+
+    .box-4 {
+        flex-basis: 100%;
+        text-align: center;
+        margin: auto;
+        line-height: 1.2;
+    }
+
+    #logo {
+        width: 30%;
+    }
+    header {
+        font-size: large;
+    }
+
+    footer {
+        font-size: large;
+    }
+}
